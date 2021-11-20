@@ -1,0 +1,457 @@
+
+.main{
+    color: white;
+}
+body{
+    background-color: #08093C;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+.container{
+    display: grid;
+
+
+
+}
+nav li{
+    display: inline;
+    padding-right: 8px;
+
+
+}
+nav ul{
+    list-style-type:none;
+    padding: 0px 0px;
+
+    
+}
+
+.sunset_image{
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 1;
+}   
+.gameday{
+    grid-column: 3 / span 2;
+    grid-row: 2 / span 1;
+}
+
+.diag{
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 1;
+}
+.ross{
+    grid-column: 1 / span 4;
+    grid-row: 4 / span 1;
+}
+.theatre{
+    grid-column: 3 / span 2;
+    grid-row: 3 / span 1;
+}
+
+.aadriving{
+    grid-column: 1 / span 2;
+    grid-row: 5 / span 1;
+}
+
+.lawquad{
+    grid-column: 3 / span 2;
+    grid-row: 5 / span 1;
+}
+
+.goblue{
+    grid-column: 1 / span 4;
+    grid-row: 6 / span 1;
+}
+.lawquad2{
+    grid-column: 1 / span 4;
+    grid-row: 7 / span 1;
+}
+
+
+
+
+header{
+    font-size: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-image: url("../images/stateStreet.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    color: white;
+    max-height: 400px;
+    background-repeat:no-repeat;
+    grid-column: 1 / span 4;
+    background-color: #08093C;
+
+
+
+}
+nav{
+    display: flex;
+    list-style: none;
+    color: white;
+    font-size: 18px;
+    height: 45px;
+    min-width: 100%;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-top: 20px;
+    flex-wrap: wrap;
+
+}
+a:link{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+a:visited{
+    color: white;
+
+}
+a:hover{
+    color: lightskyblue;
+}
+
+.home:after{    
+    content: "💙";
+}
+
+.restaurants:after{
+    content: "💛";
+}
+
+.groceries:after{
+    content: "💛";
+}
+
+.exercise:after{
+    content: "💙";
+}
+
+h1{
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+footer{
+    width:100%;
+    background:#08093C;
+    text-align:center;
+    color: white;
+    min-height: 75px;
+    left: 0;
+    bottom: 0;
+    padding-top: 10px;
+}
+
+.groceries_container{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: repeat(8, auto)
+
+}
+
+.groceriesheader{
+    grid-column: 1 / -1;
+    grid-row: 2 / span 1;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: lightgoldenrodyellow;
+}
+.traderjoes{
+    grid-column: 1 / -1;
+    grid-row: 3 / span 1;
+}
+.traderjoestext{
+    color: #08093C;
+    grid-row: 4 / span 1;
+    grid-column: 1 / span 1;
+    background-color: white;
+    border: 4px solid lightgoldenrodyellow;
+    padding: 2px;
+
+}
+.tjstopfive{
+    color: #08093C;
+    grid-row: 4 / span 1;
+    grid-column: 2 / span 1;
+    background-color: white;
+    border: 4px solid lightgoldenrodyellow;
+    padding: 2px;
+
+}
+
+
+.wholefoods{
+    grid-column: 1 / -1;
+    grid-row: 5 / span 1;
+}
+
+.wholefoodstext{
+    grid-row: 6 / span 1;
+    grid-column: 1 / span 1;
+    background-color: white;
+    border: 4px solid lightgoldenrodyellow;
+    padding: 2px;
+    color: #08093C;
+}
+.wholefoodsfive{
+    color: #08093C;
+    grid-row: 6 / span 1;
+    grid-column: 2 / span 1;
+    background-color: white;
+    border: 4px solid lightgoldenrodyellow;
+    padding: 2px;
+}
+.target{
+    grid-column: 1 / -1;
+    grid-row: 7 / span 1;
+}
+
+.targettext{
+    grid-row: 8 / span 1;
+    grid-column: 1 / span 1;
+    background-color: white;
+    border: 4px solid lightgoldenrodyellow;
+    padding: 2px;
+    color: #08093C;    
+}
+.targettopfive{
+    grid-row: 8 / span 1;
+    grid-column: 2 / span 1;
+    background-color: white;
+    border: 4px solid lightgoldenrodyellow;
+    padding: 2px;
+    color: #08093C;      
+}
+.groceries_main_header{
+    grid-row: 1 / span 1;
+    grid-column: 1 / -1;
+    color: white;
+}
+
+.exerciseheader{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: lightgoldenrodyellow;
+}
+
+div.exercise_types h3{
+    background: lightgoldenrodyellow;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #08093C;
+    font-size: 20px;
+    text-align: center;
+}
+.exercise_types{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.box{
+    flex-basis: 200px;
+    margin: 40px;
+    padding: 0 0 20px 0;
+    border: solid lightgoldenrodyellow 2px;
+    border-radius: 5px;
+}
+
+p{
+padding: 5px;
+}
+
+.restaurantsheader{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: lightgoldenrodyellow;
+}
+
+.restaurant_pics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;    
+}
+
+.pic{
+    flex-basis: 250px;
+    margin: 50px;
+    padding: 0 0 20px 0;
+    border: solid lightgoldenrodyellow 2px;
+    border-radius: 5px;
+}
+
+#restaurantheaderav{
+        font-size: 30px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #08093C;
+        background-color: lightgoldenrodyellow;
+    }
+
+    #directionsav{
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: lightgoldenrodyellow;
+        background-color: #08093C;
+        border: solid lightgoldenrodyellow 2px;
+    }
+    #restaurantheadertaq{
+        font-size: 30px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #08093C;
+        background-color: lightgoldenrodyellow;
+    }
+    #directionstaq{
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: lightgoldenrodyellow;
+        background-color: #08093C;
+        border: solid lightgoldenrodyellow 2px;}
+
+    #restaurantheaderjb{
+        font-size: 30px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #08093C;
+        background-color: lightgoldenrodyellow;
+    }
+    #directionsjb{
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: lightgoldenrodyellow;
+        background-color: #08093C;
+        border: solid lightgoldenrodyellow 2px;}
+
+    #restaurantheaderto{
+        font-size: 30px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #08093C;
+        background-color: lightgoldenrodyellow;
+    }
+    #directionsto{
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: lightgoldenrodyellow;
+        background-color: #08093C;
+        border: solid lightgoldenrodyellow 2px;}
+
+    #restaurantheadersav{
+        font-size: 30px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #08093C;
+        background-color: lightgoldenrodyellow;
+    }
+    #directionssav{
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: lightgoldenrodyellow;
+        background-color: #08093C;
+        border: solid lightgoldenrodyellow 2px;}
+
+    #restaurantheaderbig{
+        font-size: 30px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #08093C;
+        background-color: lightgoldenrodyellow;
+    }
+    #directionsbig{
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: lightgoldenrodyellow;
+        background-color: #08093C;
+        border: solid lightgoldenrodyellow 2px;}
+    
+.skip a{
+    color: #08093C;
+}
+.skip a:focus{
+    color: white;
+}
+
+@media only screen and (min-width: 760px){
+nav{
+    justify-content: center;
+    align-items: center;
+
+}
+nav ul{
+    word-spacing: 40px;
+}
+.container{
+    grid-template-columns: 2fr 2fr 2fr;
+}
+.sunset_image{
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+}  
+.gameday{
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+
+}
+.diag{
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
+}
+.theatre{
+    grid-column: 1 / span 1;
+    grid-row: 5 / span 1;
+}
+
+.aadriving{
+    grid-column: 2 / span 1;
+    grid-row: 5/ span 1;
+}
+
+.lawquad{
+    grid-column: 3 / span 1;
+    grid-row: 5 / span 1;
+}
+.restaurant_pics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;    
+}
+.pic{
+    align-self: stretch;
+}
+}
